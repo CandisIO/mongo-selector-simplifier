@@ -1,0 +1,50 @@
+{
+  "name": "@candis/mongo-selector-simplifier",
+  "version": "0.1.0",
+  "description": "Algorithmic MongoDB selector simplifier",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "babel src/ -d lib/",
+    "prepublish": "npm run build",
+    "test": "jest",
+    "typecheck": "flow"
+  },
+  "keywords": [
+    "mongo",
+    "mongodb",
+    "query",
+    "selector",
+    "selector-simplifier",
+    "selector-simplification"
+  ],
+  "author": "Florian Nagel <florian@candis.io> (https://candis.io)",
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,json,css,md}": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "jest": {
+    "verbose": true,
+    "testURL": "http://localhost/"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-jest": "^23.4.2",
+    "babel-plugin-syntax-object-rest-spread": "^6.13.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-flow": "^6.23.0",
+    "flow-bin": "^0.77.0",
+    "husky": "^1.0.0-rc.13",
+    "jest": "^23.4.2",
+    "lint-staged": "^7.2.0",
+    "prettier": "1.13.7",
+    "regenerator-runtime": "^0.12.0"
+  }
+}
