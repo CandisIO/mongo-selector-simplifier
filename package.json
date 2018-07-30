@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "description": "Algorithmic MongoDB selector simplifier",
   "main": "lib/index.js",
+  "license": "MIT",
   "scripts": {
     "build": "babel src/ -d lib/",
     "prepublish": "npm run build",
