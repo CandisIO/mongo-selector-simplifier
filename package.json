@@ -3,9 +3,20 @@
   "version": "0.1.0",
   "description": "Algorithmic MongoDB selector simplifier",
   "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CandisIO/mongo-selector-simplifier.git"
+  },
+  "bugs": {
+    "url": "https://github.com/CandisIO/mongo-selector-simplifier/issues"
+  },
+  "homepage": "https://github.com/CandisIO/mongo-selector-simplifier#readme",
   "scripts": {
-    "build": "babel src/ -d lib/",
+    "build": "babel src/ -d lib/ --ignore __tests__,__mocks__",
     "prepublish": "npm run build",
     "test": "jest",
     "typecheck": "flow"
