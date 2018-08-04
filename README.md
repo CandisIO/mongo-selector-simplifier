@@ -7,13 +7,13 @@ help MongoDB's query planner to chose the best index.
 ## Install
 
 ```
-npm install --save @candis.io/mongo-selector-simplifier
+npm install --save @candis/mongo-selector-simplifier
 ```
 
 or
 
 ```
-yarn add @candis.io/mongo-selector-simplifier
+yarn add @candis/mongo-selector-simplifier
 ```
 
 ## Usage
