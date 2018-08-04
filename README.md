@@ -1,4 +1,4 @@
-# Mongo Selector Simplifier [![CircleCI](https://circleci.com/gh/CandisIO/mongo-selector-simplifier/tree/master.svg?style=svg)](https://circleci.com/gh/CandisIO/mongo-selector-simplifier/tree/master)
+# Mongo Selector Simplifier [![CircleCI](https://circleci.com/gh/CandisIO/mongo-selector-simplifier/tree/master.svg?style=svg)](https://circleci.com/gh/CandisIO/mongo-selector-simplifier/tree/master) [![npm](https://img.shields.io/npm/v/@candis/mongo-selector-simplifier.svg)](https://www.npmjs.com/package/@candis/mongo-selector-simplifier)
 
 Reduce MongoDB selector query complexity using the commutative, associative and
 distributive laws by de-separating nested clauses. The output can often times
