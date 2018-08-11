@@ -1,2 +1,2 @@
-export { factorize } from '.utils/factorize';
-export { simplify } from './simplify';
+export { factorize } from "./utils/factorize";
+export { simplify } from "./simplify";
